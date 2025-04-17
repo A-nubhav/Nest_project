@@ -1,0 +1,22 @@
+# Ignore node_modules since we'll install dependencies inside the container
+node_modules/
+
+# Ignore build files that are generated
+/dist/
+
+# Ignore logs
+*.log
+
+# Ignore local environment variable files
+.env
+
+# Ignore test or coverage directories
+test/
+coverage/
+
+# Ignore IDE-specific files (VSCode, WebStorm, etc.)
+.vscode/
+.idea/
+
+# Ignore the Dockerfile itself (if needed)
+Dockerfile
